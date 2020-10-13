@@ -86,4 +86,4 @@ def main(algo):
 
 if __name__ == '__main__':
     #main(MyAlgo())
-    main(QLearning(exploration=0.2))
+    main(QLearning(exploration=EXPLORATION))
